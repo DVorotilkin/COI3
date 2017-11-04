@@ -1,4 +1,4 @@
-﻿namespace Laba1_COI
+﻿namespace Laba3_COI
 {
     partial class Kriterii
     {

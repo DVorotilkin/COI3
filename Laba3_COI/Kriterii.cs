@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Laba1_COI
+namespace Laba3_COI
 {
     public partial class Kriterii : Form
     {

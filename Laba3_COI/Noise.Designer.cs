@@ -1,4 +1,4 @@
-﻿namespace Laba1_COI
+﻿namespace Laba3_COI
 {
     partial class Noise
     {
@@ -71,18 +71,20 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 13);
+            this.label1.Size = new System.Drawing.Size(207, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Диапазон датчика случайных чисел = 220";
+            this.label1.Text = "Диапазон датчика случайных чисел = 1";
             // 
             // trackBar1
             // 
             this.trackBar1.LargeChange = 1;
             this.trackBar1.Location = new System.Drawing.Point(4, 25);
-            this.trackBar1.Maximum = 7;
+            this.trackBar1.Maximum = 255;
+            this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(452, 45);
             this.trackBar1.TabIndex = 8;
+            this.trackBar1.Value = 1;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // label2
